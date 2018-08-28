@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1061B181D17EA8C00F64E03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1061B171D17EA8C00F64E03 /* main.m */; };
+		A1061B1B1D17EA8C00F64E03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1061B1A1D17EA8C00F64E03 /* AppDelegate.m */; };
+		A1061B231D17EA8C00F64E03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1061B221D17EA8C00F64E03 /* Assets.xcassets */; };
+		A1061B311D17EA8C00F64E03 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1061B301D17EA8C00F64E03 /* ___Tests.m */; };
+		A1061B3C1D17EA8C00F64E03 /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1061B3B1D17EA8C00F64E03 /* ___UITests.m */; };
+		A1092EE61D1962130010D821 /* WZInstructionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1092EE51D1962130010D821 /* WZInstructionView.m */; };
+		A1092EE81D1962210010D821 /* WZInstructionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1092EE71D1962210010D821 /* WZInstructionView.xib */; };
+		A10F48091D193BB0008A52B9 /* WZCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A10F48081D193BB0008A52B9 /* WZCalendarViewController.m */; };
+		A10F480B1D193C53008A52B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A10F480A1D193C53008A52B9 /* Main.storyboard */; };
+		A10F480E1D193EC5008A52B9 /* WZKeyboardTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A10F480D1D193EC5008A52B9 /* WZKeyboardTool.m */; };
+		A10F48101D193EF4008A52B9 /* WZKeyboardTool.xib in Resources */ = {isa = PBXBuildFile; fileRef = A10F480F1D193EF4008A52B9 /* WZKeyboardTool.xib */; };
+		A10F48131D1943CB008A52B9 /* WZYearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A10F48121D1943CB008A52B9 /* WZYearViewController.m */; };
+		A10F48161D194415008A52B9 /* WZMonthDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A10F48151D194415008A52B9 /* WZMonthDayViewController.m */; };
+		A10F48191D19444B008A52B9 /* WZShowTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = A10F48181D19444B008A52B9 /* WZShowTimeView.m */; };
+		A10F481C1D19447B008A52B9 /* WZSelectTimeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A10F481B1D19447B008A52B9 /* WZSelectTimeScrollView.m */; };
+		A10F481F1D19449C008A52B9 /* WZDecisionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A10F481E1D19449C008A52B9 /* WZDecisionView.m */; };
+		A10F48221D1944C3008A52B9 /* WZMonthDayCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A10F48211D1944C3008A52B9 /* WZMonthDayCollectionCell.m */; };
+		A10F48241D1944DB008A52B9 /* WZMonthDayCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A10F48231D1944DB008A52B9 /* WZMonthDayCollectionCell.xib */; };
+		A10F48271D1945CC008A52B9 /* WZUseTime.m in Sources */ = {isa = PBXBuildFile; fileRef = A10F48261D1945CC008A52B9 /* WZUseTime.m */; };
+		A10F482A1D194854008A52B9 /* Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = A10F48291D194854008A52B9 /* Colours.m */; };
+		A10F482D1D194867008A52B9 /* NSDate+WZ.m in Sources */ = {isa = PBXBuildFile; fileRef = A10F482C1D194867008A52B9 /* NSDate+WZ.m */; };
+		A1FBB2601D17ED8B00EADCF6 /* WZLaunch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1FBB25F1D17ED8B00EADCF6 /* WZLaunch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1061B2D1D17EA8C00F64E03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1061B0B1D17EA8B00F64E03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1061B121D17EA8B00F64E03;
+			remoteInfo = "护士历";
+		};
+		A1061B381D17EA8C00F64E03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1061B0B1D17EA8B00F64E03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1061B121D17EA8B00F64E03;
+			remoteInfo = "护士历";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1061B131D17EA8B00F64E03 /* 护士历.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "护士历.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1061B171D17EA8C00F64E03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1061B191D17EA8C00F64E03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		A1061B1A1D17EA8C00F64E03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
+		A1061B221D17EA8C00F64E03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1061B271D17EA8C00F64E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1061B2C1D17EA8C00F64E03 /* 护士历Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "护士历Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1061B301D17EA8C00F64E03 /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
+		A1061B321D17EA8C00F64E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1061B371D17EA8C00F64E03 /* 护士历UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "护士历UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1061B3B1D17EA8C00F64E03 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
+		A1061B3D1D17EA8C00F64E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1092EE41D1962130010D821 /* WZInstructionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZInstructionView.h; sourceTree = "<group>"; };
+		A1092EE51D1962130010D821 /* WZInstructionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZInstructionView.m; sourceTree = "<group>"; };
+		A1092EE71D1962210010D821 /* WZInstructionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZInstructionView.xib; sourceTree = "<group>"; };
+		A10F48071D193BB0008A52B9 /* WZCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZCalendarViewController.h; sourceTree = "<group>"; };
+		A10F48081D193BB0008A52B9 /* WZCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZCalendarViewController.m; sourceTree = "<group>"; };
+		A10F480A1D193C53008A52B9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A10F480C1D193EC5008A52B9 /* WZKeyboardTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZKeyboardTool.h; sourceTree = "<group>"; };
+		A10F480D1D193EC5008A52B9 /* WZKeyboardTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZKeyboardTool.m; sourceTree = "<group>"; };
+		A10F480F1D193EF4008A52B9 /* WZKeyboardTool.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZKeyboardTool.xib; sourceTree = "<group>"; };
+		A10F48111D1943CB008A52B9 /* WZYearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZYearViewController.h; sourceTree = "<group>"; };
+		A10F48121D1943CB008A52B9 /* WZYearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZYearViewController.m; sourceTree = "<group>"; };
+		A10F48141D194415008A52B9 /* WZMonthDayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMonthDayViewController.h; sourceTree = "<group>"; };
+		A10F48151D194415008A52B9 /* WZMonthDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMonthDayViewController.m; sourceTree = "<group>"; };
+		A10F48171D19444B008A52B9 /* WZShowTimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZShowTimeView.h; sourceTree = "<group>"; };
+		A10F48181D19444B008A52B9 /* WZShowTimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZShowTimeView.m; sourceTree = "<group>"; };
+		A10F481A1D19447B008A52B9 /* WZSelectTimeScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZSelectTimeScrollView.h; sourceTree = "<group>"; };
+		A10F481B1D19447B008A52B9 /* WZSelectTimeScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZSelectTimeScrollView.m; sourceTree = "<group>"; };
+		A10F481D1D19449C008A52B9 /* WZDecisionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZDecisionView.h; sourceTree = "<group>"; };
+		A10F481E1D19449C008A52B9 /* WZDecisionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZDecisionView.m; sourceTree = "<group>"; };
+		A10F48201D1944C3008A52B9 /* WZMonthDayCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMonthDayCollectionCell.h; sourceTree = "<group>"; };
+		A10F48211D1944C3008A52B9 /* WZMonthDayCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMonthDayCollectionCell.m; sourceTree = "<group>"; };
+		A10F48231D1944DB008A52B9 /* WZMonthDayCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZMonthDayCollectionCell.xib; sourceTree = "<group>"; };
+		A10F48251D1945CC008A52B9 /* WZUseTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZUseTime.h; sourceTree = "<group>"; };
+		A10F48261D1945CC008A52B9 /* WZUseTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZUseTime.m; sourceTree = "<group>"; };
+		A10F48281D194854008A52B9 /* Colours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colours.h; sourceTree = "<group>"; };
+		A10F48291D194854008A52B9 /* Colours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colours.m; sourceTree = "<group>"; };
+		A10F482B1D194867008A52B9 /* NSDate+WZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WZ.h"; sourceTree = "<group>"; };
+		A10F482C1D194867008A52B9 /* NSDate+WZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WZ.m"; sourceTree = "<group>"; };
+		A1FBB25F1D17ED8B00EADCF6 /* WZLaunch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "WZLaunch Screen.storyboard"; path = "../../WZLaunch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1061B101D17EA8B00F64E03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1061B291D17EA8C00F64E03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1061B341D17EA8C00F64E03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1061B0A1D17EA8B00F64E03 = {
+			isa = PBXGroup;
+			children = (
+				A1061B151D17EA8C00F64E03 /* 护士历 */,
+				A1061B2F1D17EA8C00F64E03 /* 护士历Tests */,
+				A1061B3A1D17EA8C00F64E03 /* 护士历UITests */,
+				A1061B141D17EA8B00F64E03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1061B141D17EA8B00F64E03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1061B131D17EA8B00F64E03 /* 护士历.app */,
+				A1061B2C1D17EA8C00F64E03 /* 护士历Tests.xctest */,
+				A1061B371D17EA8C00F64E03 /* 护士历UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1061B151D17EA8C00F64E03 /* 护士历 */ = {
+			isa = PBXGroup;
+			children = (
+				A10F47FF1D193B07008A52B9 /* Classes */,
+				A1061B161D17EA8C00F64E03 /* Supporting Files */,
+			);
+			path = "护士历";
+			sourceTree = "<group>";
+		};
+		A1061B161D17EA8C00F64E03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1061B221D17EA8C00F64E03 /* Assets.xcassets */,
+				A1061B271D17EA8C00F64E03 /* Info.plist */,
+				A1061B171D17EA8C00F64E03 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1061B2F1D17EA8C00F64E03 /* 护士历Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A1061B301D17EA8C00F64E03 /* ___Tests.m */,
+				A1061B321D17EA8C00F64E03 /* Info.plist */,
+			);
+			path = "护士历Tests";
+			sourceTree = "<group>";
+		};
+		A1061B3A1D17EA8C00F64E03 /* 护士历UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1061B3B1D17EA8C00F64E03 /* ___UITests.m */,
+				A1061B3D1D17EA8C00F64E03 /* Info.plist */,
+			);
+			path = "护士历UITests";
+			sourceTree = "<group>";
+		};
+		A10F47FF1D193B07008A52B9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A10F48001D193B07008A52B9 /* Controller */,
+				A10F48011D193B07008A52B9 /* Model */,
+				A10F48021D193B07008A52B9 /* View */,
+				A10F48031D193B5D008A52B9 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A10F48001D193B07008A52B9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A10F48071D193BB0008A52B9 /* WZCalendarViewController.h */,
+				A10F48081D193BB0008A52B9 /* WZCalendarViewController.m */,
+				A10F48111D1943CB008A52B9 /* WZYearViewController.h */,
+				A10F48121D1943CB008A52B9 /* WZYearViewController.m */,
+				A10F48141D194415008A52B9 /* WZMonthDayViewController.h */,
+				A10F48151D194415008A52B9 /* WZMonthDayViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A10F48011D193B07008A52B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A10F48251D1945CC008A52B9 /* WZUseTime.h */,
+				A10F48261D1945CC008A52B9 /* WZUseTime.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A10F48021D193B07008A52B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A10F480C1D193EC5008A52B9 /* WZKeyboardTool.h */,
+				A10F480D1D193EC5008A52B9 /* WZKeyboardTool.m */,
+				A10F480F1D193EF4008A52B9 /* WZKeyboardTool.xib */,
+				A10F48171D19444B008A52B9 /* WZShowTimeView.h */,
+				A10F48181D19444B008A52B9 /* WZShowTimeView.m */,
+				A10F481A1D19447B008A52B9 /* WZSelectTimeScrollView.h */,
+				A10F481B1D19447B008A52B9 /* WZSelectTimeScrollView.m */,
+				A10F481D1D19449C008A52B9 /* WZDecisionView.h */,
+				A10F481E1D19449C008A52B9 /* WZDecisionView.m */,
+				A10F48201D1944C3008A52B9 /* WZMonthDayCollectionCell.h */,
+				A10F48211D1944C3008A52B9 /* WZMonthDayCollectionCell.m */,
+				A10F48231D1944DB008A52B9 /* WZMonthDayCollectionCell.xib */,
+				A1092EE41D1962130010D821 /* WZInstructionView.h */,
+				A1092EE51D1962130010D821 /* WZInstructionView.m */,
+				A1092EE71D1962210010D821 /* WZInstructionView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A10F48031D193B5D008A52B9 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A1061B191D17EA8C00F64E03 /* AppDelegate.h */,
+				A1061B1A1D17EA8C00F64E03 /* AppDelegate.m */,
+				A1FBB25F1D17ED8B00EADCF6 /* WZLaunch Screen.storyboard */,
+				A10F480A1D193C53008A52B9 /* Main.storyboard */,
+				A10F48041D193B5D008A52B9 /* Category */,
+				A10F48051D193B5D008A52B9 /* Lib */,
+				A10F48061D193B5D008A52B9 /* Tool */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A10F48041D193B5D008A52B9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A10F482B1D194867008A52B9 /* NSDate+WZ.h */,
+				A10F482C1D194867008A52B9 /* NSDate+WZ.m */,
+				A10F48281D194854008A52B9 /* Colours.h */,
+				A10F48291D194854008A52B9 /* Colours.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A10F48051D193B5D008A52B9 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		A10F48061D193B5D008A52B9 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1061B121D17EA8B00F64E03 /* 护士历 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1061B401D17EA8C00F64E03 /* Build configuration list for PBXNativeTarget "护士历" */;
+			buildPhases = (
+				A1061B0F1D17EA8B00F64E03 /* Sources */,
+				A1061B101D17EA8B00F64E03 /* Frameworks */,
+				A1061B111D17EA8B00F64E03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "护士历";
+			productName = "护士历";
+			productReference = A1061B131D17EA8B00F64E03 /* 护士历.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1061B2B1D17EA8C00F64E03 /* 护士历Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1061B431D17EA8C00F64E03 /* Build configuration list for PBXNativeTarget "护士历Tests" */;
+			buildPhases = (
+				A1061B281D17EA8C00F64E03 /* Sources */,
+				A1061B291D17EA8C00F64E03 /* Frameworks */,
+				A1061B2A1D17EA8C00F64E03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1061B2E1D17EA8C00F64E03 /* PBXTargetDependency */,
+			);
+			name = "护士历Tests";
+			productName = "护士历Tests";
+			productReference = A1061B2C1D17EA8C00F64E03 /* 护士历Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1061B361D17EA8C00F64E03 /* 护士历UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1061B461D17EA8C00F64E03 /* Build configuration list for PBXNativeTarget "护士历UITests" */;
+			buildPhases = (
+				A1061B331D17EA8C00F64E03 /* Sources */,
+				A1061B341D17EA8C00F64E03 /* Frameworks */,
+				A1061B351D17EA8C00F64E03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1061B391D17EA8C00F64E03 /* PBXTargetDependency */,
+			);
+			name = "护士历UITests";
+			productName = "护士历UITests";
+			productReference = A1061B371D17EA8C00F64E03 /* 护士历UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1061B0B1D17EA8B00F64E03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WZ;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Wizen Zhang";
+				TargetAttributes = {
+					A1061B121D17EA8B00F64E03 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A1061B2B1D17EA8C00F64E03 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A1061B121D17EA8B00F64E03;
+					};
+					A1061B361D17EA8C00F64E03 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A1061B121D17EA8B00F64E03;
+					};
+				};
+			};
+			buildConfigurationList = A1061B0E1D17EA8B00F64E03 /* Build configuration list for PBXProject "护士历" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1061B0A1D17EA8B00F64E03;
+			productRefGroup = A1061B141D17EA8B00F64E03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1061B121D17EA8B00F64E03 /* 护士历 */,
+				A1061B2B1D17EA8C00F64E03 /* 护士历Tests */,
+				A1061B361D17EA8C00F64E03 /* 护士历UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1061B111D17EA8B00F64E03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1092EE81D1962210010D821 /* WZInstructionView.xib in Resources */,
+				A10F480B1D193C53008A52B9 /* Main.storyboard in Resources */,
+				A1FBB2601D17ED8B00EADCF6 /* WZLaunch Screen.storyboard in Resources */,
+				A1061B231D17EA8C00F64E03 /* Assets.xcassets in Resources */,
+				A10F48241D1944DB008A52B9 /* WZMonthDayCollectionCell.xib in Resources */,
+				A10F48101D193EF4008A52B9 /* WZKeyboardTool.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1061B2A1D17EA8C00F64E03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1061B351D17EA8C00F64E03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1061B0F1D17EA8B00F64E03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10F48221D1944C3008A52B9 /* WZMonthDayCollectionCell.m in Sources */,
+				A1061B1B1D17EA8C00F64E03 /* AppDelegate.m in Sources */,
+				A10F481F1D19449C008A52B9 /* WZDecisionView.m in Sources */,
+				A10F48191D19444B008A52B9 /* WZShowTimeView.m in Sources */,
+				A10F482D1D194867008A52B9 /* NSDate+WZ.m in Sources */,
+				A10F48161D194415008A52B9 /* WZMonthDayViewController.m in Sources */,
+				A10F48131D1943CB008A52B9 /* WZYearViewController.m in Sources */,
+				A1061B181D17EA8C00F64E03 /* main.m in Sources */,
+				A10F482A1D194854008A52B9 /* Colours.m in Sources */,
+				A10F481C1D19447B008A52B9 /* WZSelectTimeScrollView.m in Sources */,
+				A10F48091D193BB0008A52B9 /* WZCalendarViewController.m in Sources */,
+				A10F48271D1945CC008A52B9 /* WZUseTime.m in Sources */,
+				A1092EE61D1962130010D821 /* WZInstructionView.m in Sources */,
+				A10F480E1D193EC5008A52B9 /* WZKeyboardTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1061B281D17EA8C00F64E03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1061B311D17EA8C00F64E03 /* ___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1061B331D17EA8C00F64E03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1061B3C1D17EA8C00F64E03 /* ___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1061B2E1D17EA8C00F64E03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1061B121D17EA8B00F64E03 /* 护士历 */;
+			targetProxy = A1061B2D1D17EA8C00F64E03 /* PBXContainerItemProxy */;
+		};
+		A1061B391D17EA8C00F64E03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1061B121D17EA8B00F64E03 /* 护士历 */;
+			targetProxy = A1061B381D17EA8C00F64E03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A1061B3E1D17EA8C00F64E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1061B3F1D17EA8C00F64E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1061B411D17EA8C00F64E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "护士历/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aygxy.cn.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A1061B421D17EA8C00F64E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "护士历/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aygxy.cn.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A1061B441D17EA8C00F64E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "护士历Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aygxy.cn.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/护士历.app/护士历";
+			};
+			name = Debug;
+		};
+		A1061B451D17EA8C00F64E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "护士历Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aygxy.cn.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/护士历.app/护士历";
+			};
+			name = Release;
+		};
+		A1061B471D17EA8C00F64E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "护士历UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aygxy.cn.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "护士历";
+			};
+			name = Debug;
+		};
+		A1061B481D17EA8C00F64E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "护士历UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aygxy.cn.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "护士历";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1061B0E1D17EA8B00F64E03 /* Build configuration list for PBXProject "护士历" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1061B3E1D17EA8C00F64E03 /* Debug */,
+				A1061B3F1D17EA8C00F64E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1061B401D17EA8C00F64E03 /* Build configuration list for PBXNativeTarget "护士历" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1061B411D17EA8C00F64E03 /* Debug */,
+				A1061B421D17EA8C00F64E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1061B431D17EA8C00F64E03 /* Build configuration list for PBXNativeTarget "护士历Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1061B441D17EA8C00F64E03 /* Debug */,
+				A1061B451D17EA8C00F64E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1061B461D17EA8C00F64E03 /* Build configuration list for PBXNativeTarget "护士历UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1061B471D17EA8C00F64E03 /* Debug */,
+				A1061B481D17EA8C00F64E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1061B0B1D17EA8B00F64E03 /* Project object */;
+}

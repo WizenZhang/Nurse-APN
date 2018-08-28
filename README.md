@@ -1,8 +1,5 @@
-# ![](screenshots/DT_iOS.gif)
-
-![](https://img.shields.io/badge/version-v1.0-brightgreen.svg)   ![](https://img.shields.io/badge/license-MIT-blue.svg)
-
 # 护士APN班日历控制器 
+![](https://img.shields.io/badge/version-v1.0-brightgreen.svg)   ![](https://img.shields.io/badge/license-MIT-blue.svg)
 
     一款可以显示农历和公历的护士APN班日历控制器。
 

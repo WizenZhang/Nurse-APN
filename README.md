@@ -2,9 +2,9 @@
 
 ![](https://img.shields.io/badge/version-v1.0-brightgreen.svg)   ![](https://img.shields.io/badge/license-MIT-blue.svg)
 
-# 护士APN排班日历 
+# 护士APN班日历控制器 
 
-    在医院上班的护士朋友，总是记不住她上什么班，有了这个DIY日历，就能轻松知道她的班次(APN下休)了,是一款可以显示农历和公历的日历控制器。
+    一款可以显示农历和公历的护士APN班日历控制器。
 
 ## 预览
 
